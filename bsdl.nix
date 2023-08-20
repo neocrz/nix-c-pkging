@@ -7,8 +7,9 @@ stdenv.mkDerivation {
   version = "0.0.1";
 
   src = ./src/${pname};
-  nativeBuildInputs = binputs;
-  buildInputs = bnatives;
+  
+  nativeBuildInputs = bnatives;
+  buildInputs = binputs;
 
   buildPhase = ''
     gcc -o ${pname} `sdl2-config --cflags --libs` main.c

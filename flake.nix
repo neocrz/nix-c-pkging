@@ -6,9 +6,8 @@
   outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
       let 
-      pkgs = nixpkgs.legacyPackages.${system};
+        pkgs = nixpkgs.legacyPackages.${system};
       in
-      
       let
         bnatives = with pkgs; [ gcc SDL2 pkg-config SDL2.dev raylib ];
         binputs = with pkgs; [  ];
