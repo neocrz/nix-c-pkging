@@ -9,9 +9,9 @@ Entender como funcionam nix derivations em pacotes C.
 - `bray` - basicRaylib: uma simples janela utilizando `raylib`.
 
 ## Executando
-Para rodar o shell: `nix develop` utilizando um mesmo shell para os pacotes (até o momento)
-Para buildar o package: `nix build .#bsdl`
-Para rodar o package: `nix run .#bsdl`
+- Para rodar o shell: `nix develop` utilizando um mesmo shell para os pacotes (até o momento)
+- Para buildar o package: `nix build .#bsdl`
+- Para rodar o package: `nix run .#bsdl`
 
 ## Obs
 Sou iniciante em C.
