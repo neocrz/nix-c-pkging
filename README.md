@@ -23,3 +23,8 @@ Aprendi que o pacote `pkg-config` exporta as configurações dos pacotes.
 
 ### `let-in`
 Aprendi a vantagem do uso de `let in` seguido para acessar as variáveis declaradas no `let in` anterior.
+
+### Referências
+fontes uteis que eu usei como referência:
+- https://www.keiruaprod.fr/blog/2023/03/03/nix-compiling-sdl.html
+- https://www.youtube.com/watch?v=FFuBCgsLPlw
